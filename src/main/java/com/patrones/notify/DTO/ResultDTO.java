@@ -1,6 +1,6 @@
 package com.patrones.notify.DTO;
 
-public class ResultDTO {
 
-
-}
+public record ResultDTO(
+        boolean successful,
+        ProviderDTO providerDTO) {}
