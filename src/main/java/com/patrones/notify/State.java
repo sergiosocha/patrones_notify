@@ -4,7 +4,7 @@ import org.springframework.http.HttpStatusCode;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.client.RestClient;
 
-public class State {
+public abstract class State {
 
     public abstract class Steate{
         private final Notifier notifier;
@@ -18,7 +18,4 @@ public class State {
         this.notifier = notifier;
     }
 
-    public void setNombreProveedor(String urlProveedor){
-
-    }
 }
