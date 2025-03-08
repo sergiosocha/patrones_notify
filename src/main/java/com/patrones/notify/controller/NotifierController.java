@@ -20,6 +20,7 @@ public class NotifierController {
     @GetMapping("/notificar/{requestTime}")
     public ResponseDTO notifyRequest(@PathVariable String requestTime) {
         return notifierService.notificarUsuario(requestTime);
+
     }
 
 }

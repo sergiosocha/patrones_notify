@@ -1,4 +1,7 @@
 package com.patrones.notify.DTO;
 
-public class ProviderDTO {
-}
+public record ProviderDTO(
+        String provider,
+        String code,
+        String body,
+        int retries) {}

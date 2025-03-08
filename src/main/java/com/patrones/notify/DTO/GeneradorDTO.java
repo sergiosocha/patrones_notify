@@ -15,7 +15,7 @@ public class GeneradorDTO {
     }
 
     public static ProviderDTO generateProviderDTO(String provider, String code, String body, int retries) {
-        return new ProviderDTO(previer, code, body, retries);
+        return new ProviderDTO(provider, code, body, retries);
     }
 
     public static ResultDTO generateResultDTO(boolean successful, ProviderDTO providerDTO) {
